@@ -3,3 +3,4 @@ venv/
 __pycache__/
 .gradio
 diagnosis_response.mp3
+.pytest_cache
