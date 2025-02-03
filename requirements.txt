@@ -4,3 +4,4 @@ gradio
 elevenlabs
 python-magic
 ffmpeg-python
+pytest
