@@ -35,10 +35,11 @@ class DoctorInterface:
             ],
             outputs=[
                 gr.Textbox(label="User Query"),
-                gr.Textbox(label="Diagnosis"),
-                gr.Audio(label="Diagnosis Audio")
+                gr.Textbox(label="Educational Analysis"),
+                gr.Audio(label="Audio Response")
             ],
-            title="AI Doctor Interface",
-            description="Upload an audio file and an optional image for diagnosis."
+            title="Medical Image Education Assistant",
+            description="""This is an educational tool to help learn about medical imaging concepts.
+            NOT for medical diagnosis. Always consult healthcare professionals for medical advice."""
         )
         iface.launch()
